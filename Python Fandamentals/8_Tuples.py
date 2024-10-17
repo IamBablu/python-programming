@@ -1,0 +1,17 @@
+tup=(1,"a",True,2,"b",False)
+print("tup= ",tup)
+print("tup[0]= ",tup[0])
+print("tup[-1]= ",tup[-1])
+print("tup[1:4]= ",tup[1:4])
+# tup1[2]="hello" #This is give error because tuple is ichangable or imutable
+print("len(tup) = ",len(tup))
+
+tup1=(1,"a",True)
+tup2=(4,5,6)
+print("tup1= ",tup1)
+print("tup2= ",tup2)
+print("tup1+tup2 = ",tup1+tup2)
+print("tup2+tup1 = ",tup2+tup1)
+print("tup1*3+tup2 = ",tup1*3+tup2)
+print("min(tup2) = ",min(tup2))
+print("max(tup2) = ",max(tup2))

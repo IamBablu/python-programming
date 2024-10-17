@@ -1,0 +1,16 @@
+n1=0o17
+n2=0b1110010
+n3=0x1c2
+print("n1=",int(n1))
+print("n2=",int(n2))
+print("n3=",int(n3))
+str="1c3"
+print("str=",int(str,16))
+s1="17"
+s2="1110010"
+print("s1=",int(s1,8))
+print("s2=",int(s2,2))
+a=10
+print("a in binary=",bin(a))
+print("a in octal=",oct(a))
+print("a in hexcal=",hex(a))
